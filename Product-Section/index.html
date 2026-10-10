@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Grocery Super Market</title>
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="header">
+
+            <div class="header-content">
+
+                <div class="header-text">
+
+                    <h2>E-Grocery Super Market</h2>
+
+                    <p>
+                        Whatever the occasion, we've got you covered.
+                    </p>
+
+                    <div class="search-box">
+
+                        <input
+                            id="product-search"
+                            type="text"
+                            placeholder="Search E-Grocery Super Market"
+                            aria-label="Search products">
+
+                        <i class="ri-search-line"></i>
+
+                    </div>
+
+                </div>
+
+                <div class="header-image">
+
+                    <img
+                        src="./assets/image/Fresh Groceries, Better Living.png"
+                        alt="Grocery shopping">
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <section class="toolbar">
+
+            <p>
+                <strong id="product-count">26</strong> Products found
+            </p>
+
+            <div class="toolbar-options">
+
+                <select aria-label="Products per page">
+                    <option>30</option>
+                    <option>50</option>
+                    <option>100</option>
+                </select>
+
+                <select aria-label="Sort products">
+                    <option>Sort by: Featured</option>
+                    <option>Price: Low to High</option>
+                    <option>Price: High to Low</option>
+                </select>
+
+            </div>
+
+        </section>
+
+        <main class="product-grid">
+
+            <!-- Product 1 -->
+            <section class="product-card">
+
+                <div class="product-image">
+
+                    <span class="badge sale">Sale 10%</span>
+
+                    <img
+                        src="./assets/image/img-1.jpg"
+                        alt="Sev Bhujia"
+                        class="product-img">
+
+                </div>
+
+                <div class="product-info">
+
+                    <p class="category">Snack &amp; Munchies</p>
+
+                    <h3>Haldiram's Sev Bhujia</h3>
+
+                    <div class="rating">
+                        <span>★★★★★</span>
+                        <small>(4.3)</small>
+                    </div>
+
+                    <div class="product-bottom">
+
+                        <p class="price">$21.60 <del>$24.00</del></p>
+
+                        <button class="add-btn">
+                            <i class="ri-add-line"></i> Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="product-card">
+
+                <div class="product-image">
+
+                    <img
+                        src="./assets/image/img-2.jpg"
+                        alt="Digestive Biscuits"
+                        class="product-img">
+
+                </div>
+
+                <div class="product-info">
+
+                    <p class="category">Bakery &amp; Biscuits</p>
+
+                    <h3>NutriChoice Digestive</h3>
+
+                    <div class="rating">
+                        <span>★★★★★</span>
+                        <small>(4.4)</small>
+                    </div>
+
+                    <div class="product-bottom">
+
+                        <p class="price">$24.00 <del>$28.00</del></p>
+
+                        <button class="add-btn">
+                            <i class="ri-add-line"></i> Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="product-card">
+
+                <div class="product-image">
+
+                    <span class="badge red">Buy 1 Get 1</span>
+
+                    <img
+                        src="./assets/image/img-3.webp"
+                        alt="Chocolate"
+                        class="product-img">
+
+                </div>
+
+                <div class="product-info">
+
+                    <p class="category">Bakery &amp; Biscuits</p>
+
+                    <h3>Chocolate</h3>
+
+                    <div class="rating">
+                        <span>★★★★★</span>
+                        <small>(4.3)</small>
+                    </div>
+
+                    <div class="product-bottom">
+
+                        <p class="price">$35.00 <del>$40.00</del></p>
+
+                        <button class="add-btn">
+                            <i class="ri-add-line"></i> Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="product-card">
+
+                <div class="product-image">
+
+                    <span class="badge hot">Hot 40%</span>
+
+                    <img
+                        src="./assets/image/img-4.jpg"
+                        alt="Potato Chips"
+                        class="product-img">
+
+                </div>
+
+                <div class="product-info">
+
+                    <p class="category">Snack &amp; Munchies</p>
+
+                    <h3>Potato Chips</h3>
+
+                    <div class="rating">
+                        <span>★★★★★</span>
+                        <small>(4.5)</small>
+                    </div>
+
+                    <div class="product-bottom">
+
+                        <p class="price">$3.00 <del>$5.00</del></p>
+
+                        <button class="add-btn">
+                            <i class="ri-add-line"></i> Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="product-card">
+
+                <div class="product-image">
+
+                    <span class="badge green">35%</span>
+
+                    <img
+                        src="./assets/image/img-5.jpg"
+                        alt="Salted Popcorn"
+                        class="product-img">
+
+                </div>
+
+                <div class="product-info">
+
+                    <p class="category">Instant Food</p>
+
+                    <h3>Salted Instant Popcorn</h3>
+
+                    <div class="rating">
+                        <span>★★★★★</span>
+                        <small>(4.3)</small>
+                    </div>
+
+                    <div class="product-bottom">
+
+                        <p class="price">$11.70 <del>$15.00</del></p>
+
+                        <button class="add-btn">
+                            <i class="ri-add-line"></i> Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="product-card">
+
+                <div class="product-image">
+
+                    <img
+                        src="./assets/image/img-3.webp"
+                        alt="Chocolate Pack"
+                        class="product-img">
+
+                </div>
+
+                <div class="product-info">
+
+                    <p class="category">Bakery &amp; Biscuits</p>
+
+                    <h3>Chocolate Pack</h3>
+
+                    <div class="rating">
+                        <span>★★★★★</span>
+                        <small>(4.3)</small>
+                    </div>
+
+                    <div class="product-bottom">
+
+                        <p class="price">$35.00 <del>$40.00</del></p>
+
+                        <button class="add-btn">
+                            <i class="ri-add-line"></i> Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="product-card">
+
+                <div class="product-image">
+
+                    <span class="badge sale">Sale 10%</span>
+
+                    <img
+                        src="./assets/image/img-1.jpg"
+                        alt="Namkeen"
+                        class="product-img">
+
+                </div>
+
+                <div class="product-info">
+
+                    <p class="category">Snack &amp; Munchies</p>
+
+                    <h3>Namkeen</h3>
+
+                    <div class="rating">
+                        <span>★★★★★</span>
+                        <small>(4.3)</small>
+                    </div>
+
+                    <div class="product-bottom">
+
+                        <p class="price">$21.60 <del>$24.00</del></p>
+
+                        <button class="add-btn">
+                            <i class="ri-add-line"></i> Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="product-card">
+
+                <div class="product-image">
+
+                    <span class="badge hot">40%</span>
+
+                    <img
+                        src="./assets/image/img-6.avif"
+                        alt="Blueberry Yogurt"
+                        class="product-img">
+
+                </div>
+
+                <div class="product-info">
+
+                    <p class="category">Dairy, Bread &amp; Eggs</p>
+
+                    <h3>Blueberry Greek Yogurt</h3>
+
+                    <div class="rating">
+                        <span>★★★★★</span>
+                        <small>(4.4)</small>
+                    </div>
+
+                    <div class="product-bottom">
+
+                        <p class="price">$14.40 <del>$18.00</del></p>
+
+                        <button class="add-btn">
+                            <i class="ri-add-line"></i> Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <p>© 2026 E-Grocery Super Market</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
